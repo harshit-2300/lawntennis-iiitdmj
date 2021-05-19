@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+    
+  
+}
+
+body{
+  background-color: rgba(53, 53, 53,0.1);
+}
+
+li,a,button {
+    padding: 30px 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6E5D5D;
+  text-decoration: none;
+}
+
+header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.heading
+{
+  
+  text-align: center;
+  margin-top: 2em;
+
+}
+
+.iiitdmj{
+    padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.institute_name{
+  padding-left: 10px;
+}
+
+.logo{
+
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  
+  }
+
+.nav_links{
+  
+  list-style: none;
+}
+
+.nav_links li{
+   display: inline-block;
+   padding: 0px 20px;
+}
+
+.nav_links li a{
+   transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+   color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(223, 224, 226,1);
+  border: none;
+  border-radius:50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s; 
+}
+
+button:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+
+
+
+
+.buffer{
+  height: 2em;
+}
+
+.about
+{   
+    
+    padding-bottom: 1em;
+
+
+  
+}
+
+.content
+{
+  margin-left: 5em;
+
+}
+
+footer{
+  height: 4em;
+  
+  text-align: center;
+  padding: 1em;
+    background-color: rgba(29, 29, 29,0.2);
+
+}
+
+.members{
+  text-align: center;
+  list-style: none;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+img{
+  border-radius: 5px;
+}
+
+img:hover{
+  transform: scaleZ(50);
+}
