@@ -10,31 +10,73 @@
    -->    
     <link rel="stylesheet" type="text/css" href="index.css">
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>LAWN TENNIS @IIITDMJ</title>
 
     <link href="tennis.png" rel="icon">
     <link href="tennis.png" rel="apple-touch-icon">
+
+    <script>
+    
+       function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    } 
+
+  </script>
   </head>
   <body>
 
+
+    <!-- <============ seond navbar ==============================>-->
+                 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+        <div  class="topnav" id="myTopnav">
+          <a  href="./index.html" class="active">Home</a>
+          <a href="./events.html">Events</a>
+          <a href="./members.html">Members</a>
+          <a href="./gallery.html">Gallery</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div> 
+      <!--=================================== end ============= -->
+
     <div class="wrap">
-         <img src="./background.jpeg" class="bg1">  
+       <img src="./background.jpeg" class="bg1">  
+
+
+
+
 	     <header>
-	     	<div class="iiitdmj">
-	     	<img class="logo"  src="jabalpur.jpg" alt="logo">
-	     	<p class="institute_name"><sup>PDPM</sup>Indian Institute of Information Technology,<br>Design and Manufacturing,<br>Jabalpur</p>
-	        </div>
-	     	<nav class="nav_links">
-	     		<ul>
-	     			<li><a href="./index.html">Home</a></li>
-	     			<li><a href="./events.html">Events</a></li>
-	     		    <li><a href="./members.html">Members</a></li>
-	     		    <li><a href="#">Gallery</a></li>
-	     		    <li><a href="#">Achievements</a></li>	
-	     		</ul>
-	     	</nav>
-		    <a class="cta" href="#"><button>Contact</button></a>  
+
+      	     	<div class="iiitdmj">
+        	     	<img class="logo"  src="jabalpur.jpg" alt="logo">
+        	     	<p class="institute_name"><sup>PDPM</sup>Indian Institute of Information Technology,<br>Design and Manufacturing,<br>Jabalpur</p>
+      	      </div>
+
+      	     	<div class="nav_links"  >
+      	     		<ul >
+      	     			<li><a href="./index.html">Home</a></li>
+      	     			<li><a href="./events.html">Events</a></li>
+      	     		    <li><a href="./members.html">Members</a></li>
+      	     		    <li><a href="#">Gallery</a></li>
+      	     		    <li><a href="#">Achievements</a></li>	
+      	     		</ul>
+                
+      	     	</div>
+              
+      		    <a class="cta" href="#"><button>Contact</button></a>  
 	     </header>
+
+       
+
+
 
 	     <div class="heading">
 
@@ -82,7 +124,7 @@
 
 
    
-
+  
     
   </body>
   <footer>
