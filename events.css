@@ -10,12 +10,12 @@
 		.maindiv{
 			margin-top: 10em;
 			width: 70%;
-			height: 600px;
+			height: 650px;
 			position: relative;
 			left: 50%;
 			top: 60%;
 			transform: translate(-50%,-50%);
-			background-image: url('./2.jpeg');
+			background-image: url('background.jpeg');
 			background-size: 100% 100%;	
 			box-shadow: 1px 2px 10px 5px grey;
 			animation: slider 20s infinite linear;
@@ -49,9 +49,9 @@
 		@keyframes slider{
 
 			
-			0%{background-image: url("./tennis.png")}
-			40%{background-image: url("./background.jpeg");}
-			70%{background-image: url("./tennis2.jpeg");}
+			0%{background-image: url("./img/gallery/12.webp")}
+			40%{background-image: url("./img/gallery/13.webp");}
+			70%{background-image: url("./img/gallery/3.jpeg");}
 			
 			
 			
